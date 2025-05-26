@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
+
+body {
+  background: radial-gradient(circle, #001f3f, #003366);
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1.futuristic-font {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 0 0 15px cyan;
+}
+
+.futuristic-glow {
+  color: cyan;
+  text-shadow: 0 0 20px cyan;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+button {
+  background: linear-gradient(45deg, #00ffea, #008cff);
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #008cff, #00ffea);
+  box-shadow: 0 0 10px white;
+}
