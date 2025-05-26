@@ -1,7 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Sydney Ecommerce Theme`,
-    siteUrl: `https://jamm.matter.design`,
+    title: "Gem Studios",
+    description: "Futuristic fashion redefined.",
+    siteUrl: "https://gemstudios.netlify.app",
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        icon: "static/gem-logo.png",
+      },
+    },
+  ],
 };
